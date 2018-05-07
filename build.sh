@@ -7,4 +7,4 @@ ls -l ../
 echo "starting test ..."
 
 jmeter -v
-jmeter -t /test.jmx -l ../build-outputg/result.jtl -X -GatlingMode=ON -GatlingSimulationsPath=/jmeter/simulations -GatlingTestRunOptions="-nr -m -s sample.TestSimulation"
+jmeter -t /test.jmx -l ../build-output/result.jtl
