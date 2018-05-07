@@ -2,9 +2,9 @@
 cd service-repo/
 
 echo I am in `pwd`
-ls -l ../
+ls
 
 echo "starting test ..."
 
 jmeter -v
-jmeter -n -t /test.jmx -l ../build-output/result.jtl
+jmeter -n -t test.jmx -l ../build-output/result.jtl
