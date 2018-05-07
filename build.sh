@@ -7,4 +7,4 @@ ls -l ../
 echo "starting test ..."
 
 jmeter -v
-java jmeter -n -t /test.jmx -l ../build-output/result.jtl
+jmeter -n -t /test.jmx -l ../build-output/result.jtl
